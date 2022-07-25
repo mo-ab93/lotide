@@ -11,7 +11,7 @@ const tail = function(arr) {
 };
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
-assertEqual(result.length, 2); // => will always fail!
+assertEqual(result, ["Lighthouse", "Labs"]); // => will always fail!
 
 // Test Case: Check the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];
