@@ -56,3 +56,5 @@ assertEqual(result1, result3);
 assertEqual(result2, result3);
 assertEqual(result2, result2);
 
+module.exports = findKey;
+

@@ -47,3 +47,5 @@ assertArraysEqual(results1, results2);
 assertArraysEqual(results1, results3);
 assertArraysEqual(results2, results4);
 assertArraysEqual(results1, results1);
+
+module.exports = takeUntil;
